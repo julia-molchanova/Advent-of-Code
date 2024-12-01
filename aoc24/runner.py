@@ -34,7 +34,11 @@ if __name__ == "__main__":
         example_answer = solver(*example_data)
 
         if correct_answer is not None and example_answer != correct_answer:
-            print(f"answered {example_answer}, correct answer = {correct_answer}")
+            print(
+                f"Answered {example_answer}, correct answer for this example: {correct_answer}"
+            )
+
+    print("Tests completed")
 
     input_lines = read_data(data_path / "input.txt")
     input_data = parse_data(input_lines)
