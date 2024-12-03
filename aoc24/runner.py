@@ -1,5 +1,5 @@
 from pathlib import Path
-from day2.solution import parse_data, solve_part1, solve_part2
+from day3.solution import parse_data, solve_part1, solve_part2
 
 
 def read_data(path: str):
@@ -16,7 +16,7 @@ def read_correct_answer(path: str):
     return int(lines[0]), int(lines[1])
 
 
-task = 2
+task = 3
 
 if __name__ == "__main__":
 
